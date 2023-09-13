@@ -23,6 +23,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this@MainActivity, FavouriteActivity::class.java)
             startActivity(intent)
         }
+
+
+
+
         binding.PlaylistBtn.setOnClickListener {
             val intent = Intent(this@MainActivity, playlistActivity::class.java)
             startActivity(intent)
